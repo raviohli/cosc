@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/buddy/school/cosc1/cosc/helloworld",
-      "program": "/home/buddy/school/cosc1/cosc/helloworld/build/Debug/outDebug",
+      "cwd": "/home/buddy/school/cosc1/cosc/m1lab",
+      "program": "/home/buddy/school/cosc1/cosc/m1lab/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
