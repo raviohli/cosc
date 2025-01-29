@@ -1,4 +1,13 @@
-#include<iostream>
+//************************************************************************
+// Author: Noel Latsha
+// Date: 29 Jan 2025
+// Language: C++
+// Assignment: Module 1 quote lab
+// Description:
+//************************************************************************
+
+
+#include <iostream>
 
 using namespace std;
 

@@ -5,13 +5,5 @@
 // Assignment:
 // Description:
 //************************************************************************
-#include<iostream>
-using namespace std;
 
-int main()
-{
-    // declare local variables
-    
-    return 0;
-}
 
