@@ -23,6 +23,23 @@ int main()
     cout << "GPA: " << myGPA << " Grade: " << myGrade << endl;
     cout << "End of Program!\n";
 
-    return 0;
+    
 
+    //----------------------------------------
+    // declare local vars
+    string myAccountNumber = "123456789";
+    float myBalance = 29.01;
+    float myDeposit = 10.00;
+    bool isAccountActive = true;
+
+    // display initial account balance
+    cout << "Account Number: " << myAccountNumber << endl;
+    cout << "Initial Balance: $" << myBalance << endl;
+    
+    // add the deposit to the balance
+    myBalance = myBalance + myDeposit;
+    cout << "New balance: $" << myBalance << endl
+        << "Account active: " << isAccountActive << endl;
+
+    return 0;
 }
