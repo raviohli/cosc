@@ -1,6 +1,6 @@
 //************************************************************************
 // Author: Noel Latsha
-// Date: 30 Jan 2025
+// Date: 05 Feb 2025
 // Language: C++
 // Assignment: Semester Project A - Section 1
 // Description:
@@ -26,7 +26,7 @@ int main()
     // Prompt user for first name and store
     cout << "Please enter your first name: ";
     cin >> firstName;
-    
+
     // Prompt user for last name and store
     cout << "Please enter your last name: ";
     cin >> lastName;
