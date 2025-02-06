@@ -24,17 +24,15 @@ int main()
          << "******************************************" << endl;
 
     // Prompt user for first name and store
-    cout << "Please enter your first name: "
+    cout << "Please enter your first name: ";
     cin >> firstName;
-
-    // Inject a newline for clean output
-    cout << "\n"
+    
     // Prompt user for last name and store
-    cout << "Please enter your last name: "
+    cout << "Please enter your last name: ";
     cin >> lastName;
 
     // Output a welcome message to the user
-    cout << "Welcome to my course project " << firstName << " \n"
+    cout << "Welcome to my course project " << firstName << "!\n";
 
     return 0;
 }
