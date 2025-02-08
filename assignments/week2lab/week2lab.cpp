@@ -14,9 +14,10 @@ int main()
     // Declare local variables
     float tempF, tempC;
 
-    // Prompt the user for temp in F and store
+    // Prompt the user for temp in F, store and print
     cout << "Enter the temperature in Fahrenheit: ";
     cin >> tempF;
+    cout << "The temperature in Fahrenheit is: " << tempF << endl;
 
     // Perform the math using the conversion formula
     tempC = (tempF - 32) * 5.0 / 9.0;
