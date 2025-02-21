@@ -94,7 +94,8 @@ int main()
             cout << "Enter Y: ";
             cin >> y;
             userCalcOutput = pow (x, y);
-            cout << userCalcOutput << endl;
+            cout << x << " to the power of " << y
+                 << " is " << userCalcOutput << endl;
             break;
         
         case 3: // convert numerical GPA to letter Grade
@@ -118,7 +119,7 @@ int main()
             break;
             // end of case 3
         default:
-            cout << "You didn't pick a valid number"
+            cout << "You didn't pick a valid number\n"
                  << "Terminating Program";
             break;
     }
