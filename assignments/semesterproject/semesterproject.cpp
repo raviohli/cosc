@@ -25,6 +25,9 @@ int main()
     int userCalcRequest; // Stores the user's number request
     // in the calculation section
     float userCalcOutput; // Stores the numeric output for the user sections
+    float calcInput; // Stores calculation input from user
+    float numToExpound; // stores the base "x" for the x to y power case
+    float numExponent; // the exponent "y" for x to y power
 
     // ****** Welcome Section **********
     // Output welcome header
@@ -70,9 +73,6 @@ int main()
         
 
         case 1: // Square root case
-            float calcInput; // Initializing variable inside tthe cases because
-            // not all vars are used in all cases, saves some memory
-            // maybe at the cost of readability? not sure
             cout << "Enter a number to calculate the square root: ";
             cin >> calcInput; // Store input
             userCalcOutput = sqrt(calcInput); // Store sqrt in userOutput
@@ -83,18 +83,13 @@ int main()
         
 
         case 2: // X to Y power case
-            float x;
-            float y; // will store the "X and Y power" part of this case
-            // Would prefer to only initialize this variable if necessary
-            // so I did it in this case, as it isn't used anywhere else.
-
             cout << "Enter a number X to raise to the Y power\n";
             cout << "Enter X: ";
-            cin >> x;
+            cin >> numToExpound;
             cout << "Enter Y: ";
-            cin >> y;
-            userCalcOutput = pow (x, y);
-            cout << x << " to the power of " << y
+            cin >> numExponent;
+            userCalcOutput = pow (numToExpound, numExponent);
+            cout << numToExpound << " to the power of " << numExponent
                  << " is " << userCalcOutput << endl;
             break;
         
