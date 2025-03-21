@@ -1,0 +1,67 @@
+
+
+
+main
+------------
+variables
+double weight
+double height
+double bmi
+string category
+
+algorithm
+call getWeightHeight function pass the weight and height variables
+call calcBMI function and store the return BMI in bmi, pass the weight and height variables
+call classifyBMI function and pass the BMI var into it and store it in category
+
+display the BMI value
+display the category value
+
+
+
+getWeightHeight
+---------------
+variables
+double weight (passed to the function)
+double height (passed to the function)
+
+algorithm
+prompt the user to enter weight in kilograms 
+get the user's input and store in weight
+
+prompt the user to enter height in meters
+get the user's input and store in height
+
+
+calcBMI
+-------------
+variables
+double height (passed to function)
+double weight (passed to function)
+double bmi
+
+algorithm
+set BMI to weight / (height * height)
+return the BMI value
+
+
+
+
+
+classifyBMI
+------------
+variables
+double bmi (function parameter)
+
+algorithm
+if BMI less than 18.5
+    return "Underweight"
+else if the bmi is greater than or equal to 18.5 and less than 25
+    return "Normal weight"
+else if the bmi is greater than or equal to 25 and less than 30
+    return "Overweight"
+else if BMI is greater than or equal to 30
+    return "Obese"
+
+
+

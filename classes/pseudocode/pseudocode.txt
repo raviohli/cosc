@@ -1,0 +1,21 @@
+variables
+---------
+integer largestNumber = 0
+integer userInput = 1
+
+main
+--------
+    while userInput is greater than 0 (zero)
+        prompt the user for input "Enter a positive integer or zero to quit"
+        get the user input and store it in userInput
+
+        if the userInput value is greater than the largestNumber value
+            set largestNumber to userInput
+
+        if the userInput is less than 0
+            display error message "Invalid input, enter a positive integer"
+        else
+            display the largestNumber
+
+
+

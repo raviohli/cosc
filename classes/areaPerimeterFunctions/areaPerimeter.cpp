@@ -14,7 +14,7 @@ int perimeter(int, int);
 double perimeter(double, double);
 
 // global variables
-const double PI = 3.1215926535;
+const double PI = 3.1415926535;
 
 
 int main()
