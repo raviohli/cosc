@@ -26,7 +26,7 @@ int main()
 
 
     // Prompt user for two numbes between 100 and 200
-    cout << "Please enter two numbers between 100 and 200";
+    cout << "Please enter two numbers between 100 and 200\n";
     // Begin a loop to prompt for input, and validate
     // input to ensure that it's within 100 and 200
     while(!numberIsValid)
